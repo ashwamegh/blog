@@ -1,10 +1,13 @@
 {
-  "name": "Jekyll-Gulp-Sass-Autoprefixer-Imagemin-BrowserSync",
+  "name": "ashwameghs-blog",
   "version": "1.0.0",
-  "description": "A starter project for Jekyll",
+  "description": "A blog based on the jekyll structure",
   "main": "index.js",
+  "scripts": {
+    "build": "bundle exec jekyll serve --watch"
+  },
   "repository": "https://github.com/artemsheludko/Jekyll-Gulp-Sass-Autoprefixer-Imagemin-BrowserSync",
-  "author": "Artem Sheludko",
+  "author": "Shashank Shekhar",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.18.13",
